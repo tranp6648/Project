@@ -28,4 +28,4 @@ Route::get('/register',[Admincontroller::class,'register']);
 Route::post('/add_register',[Admincontroller::class,'addRegister']);
 //category product
 Route::get('/add_catelogy',[categoryProduct::class,'add_category_product']);
-Route::post('/savecatelogy',[categoryProduct::class,'save_catelogy']);
+Route::post('/savecategogy',[categoryProduct::class,'save_categogy']);
