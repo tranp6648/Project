@@ -21,7 +21,7 @@ class Admincontroller extends Controller
         $Email=$request->Email;
         $Phone=$request->Phone;
         $Password=$request->Password;
-        DB::insert('insert into user(Name,Email,Password,phone,usr_type) values(?,?,?,?,?)',[$Name,$Email,$Password,$Phone,'usr']);
+        DB::insert('insert into user(username,Email,Password,user_type) values(?,?,?,?,?)',[$Name,$Email,$Password,$Phone,'usr']);
         return redirect('register');
     }
     //xu ly trang admin neu kiem tra xem Email va Password so sanh xem neu user va password dung voi db thi cho luu ten va id vao session neu khong hien thong bao Password username ko dung
@@ -29,9 +29,9 @@ class Admincontroller extends Controller
     public function checklogin(Request $request){
         $Email=$request->Email;
         $Password=$request->Password;
-        $result=DB::table('user')->where('Email',$Email)->where('Password',$Password)->where('usr_type','adm')->first();
+        $result=DB::table('user')->where('Email',$Email)->where('Password',$Password)->where('user_type','adm')->first();
         if($result){
-            Session::put('Name',$result->Name);
+            Session::put('Name',$result->username);
             Session::put('id',$result->id);
             return redirect('/dashboard');
         }else{
