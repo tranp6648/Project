@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 class categoryProduct extends Controller
 {
     public  function add_category_product(){
-        return view('categogy.add_categogy');
+        return view('category.add_category');
     }
-    public function save_categogy(Request $request){
+    public function save_category(Request $request){
         $data=array();
-        $data['categogy_name']=$request->namecategogy;
-        $data['description_categogy']=$request;
+        $data['category_name']=$request->name_category;
+        $data['description_category']=$request;
     }
 }

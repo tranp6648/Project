@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admincontroller;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\categoryProduct;
 use Illuminate\Support\Facades\Route;
 
@@ -16,16 +16,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login.login');
+    return view('index');
 });
-Route::get('/dashboard',[Admincontroller::class,'dashboard']);
-//xu ly login kiem tra xem user va pass
-Route::post('/login',[Admincontroller::class,'checklogin']);
+Route::get('/admin/dashboard',[AdminController::class,'dashboard']);
+//xu ly login xem user va pass
+Route::post('/login',[AdminController::class,'check_login']);
 //xu y logout
-Route::get('/logout',[Admincontroller::class,'logout']);
+Route::get('/logout',[AdminController::class,'logout']);
 //xu ly register
-Route::get('/register',[Admincontroller::class,'register']);
-Route::post('/add_register',[Admincontroller::class,'addRegister']);
+Route::get('/register',[AdminController::class,'register']);
+Route::post('/add_register',[AdminController::class,'addRegister']);
 //category product
-Route::get('/add_catelogy',[categoryProduct::class,'add_category_product']);
-Route::post('/savecategogy',[categoryProduct::class,'save_categogy']);
+Route::get('/add_category',[categoryProduct::class,'add_category_product']);
+Route::post('/save_category',[categoryProduct::class,'save_category']);
