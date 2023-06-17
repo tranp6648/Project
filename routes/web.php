@@ -21,6 +21,7 @@ Route::get('/', function () {
 Route::get('/admin/dashboard',[AdminController::class,'dashboard']);
 //xu ly login xem user va pass
 Route::post('/login',[AdminController::class,'check_login']);
+route::get('/login',[AdminController::class,'login']);
 //xu y logout
 Route::get('/logout',[AdminController::class,'logout']);
 //xu ly register

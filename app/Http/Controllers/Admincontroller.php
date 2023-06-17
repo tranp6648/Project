@@ -16,6 +16,9 @@ class AdminController extends Controller
     public function register(){
         return view('register');
     }
+    public function login(){
+        return view('login');
+    }
     public function addRegister(Request $request){
         $Name=$request->Name;
         $Email=$request->Email;

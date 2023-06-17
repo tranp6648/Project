@@ -14,15 +14,15 @@
       <meta name="author" content="">
       
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="{{ asset('template1/css/bootstrap.min.css ')}}">
+      <link rel="stylesheet" href="{{ asset(' css/bootstrap.min.css ')}}">
       <!-- style css -->
-      <link rel="stylesheet" href="{{ asset('template1/css/style.css ')}}">
+      <link rel="stylesheet" href="{{ asset(' css/style.css ')}}">
       <!-- Responsive-->
-      <link rel="stylesheet" href="{{ asset('template1/css/responsive.css ')}}">
+      <link rel="stylesheet" href="{{ asset(' css/responsive.css ')}}">
       <!-- fevicon -->
-      <link rel="icon" href="{{ asset('template1/images/fevicon.png ')}}" type="image/gif" />
+      <link rel="icon" href="{{ asset(' images/fevicon.png ')}}" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="{{ asset('template1/css/jquery.mCustomScrollbar.min.css ')}}">
+      <link rel="stylesheet" href="{{ asset(' css/jquery.mCustomScrollbar.min.css ')}}">
       <!-- Tweaks for older IEs-->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
@@ -35,7 +35,7 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="{{ asset('template1/images/loading.gif ')}}" alt="#" /></div>
+         <div class="loader"><img src="{{ asset(' images/loading.gif ')}}" alt="#" /></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -47,7 +47,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <ul class="conta_icon ">
-                           <li><a href="#"><img src="{{ asset('template1/images/call.png ')}}" alt="#"/>Call us: 0126 - 922 - 0162</a> </li>
+                           <li><a href="#"><img src="{{ asset(' images/call.png ')}}" alt="#"/>Call us: 0126 - 922 - 0162</a> </li>
                         </ul>
                      </div>
                      <div class="col-md-4">
@@ -86,15 +86,15 @@
                   <div class="row d_flex">
                      <div class="col-md-4">
                         <ul class="conta_icon d_none1">
-                           <li><a href="#"><img src="{{ asset('template1/images/email.png ')}}" alt="#"/> demo@gmail.com</a> </li>
+                           <li><a href="#"><img src="{{ asset(' images/email.png ')}}" alt="#"/> demo@gmail.com</a> </li>
                         </ul>
                      </div>
                      <div class="col-md-4">
-                        <a class="logo" href="#"><img src="{{ asset('template1/images/logo.png ')}}" alt="#"/></a>
+                        <a class="logo" href="#"><img src="{{ asset(' images/logo.png ')}}" alt="#"/></a>
                      </div>
                      <div class="col-md-4">
                         <ul class="right_icon d_none1">
-                           <li><a href="#"><img src="{{ asset('template1/images/shopping.png ')}}" alt="#"/></a> </li>
+                           <li><a href="#"><img src="{{ asset(' images/shopping.png ')}}" alt="#"/></a> </li>
                            <a href="#" class="order">Order Now</a> 
                         </ul>
                      </div>
@@ -161,7 +161,7 @@
                </div>
                <div class="col-md-4">
                   <div class="ban_img">
-                     <figure><img src="{{ asset('template1/images/ban_img.png ')}}" alt="#"/></figure>
+                     <figure><img src="{{ asset(' images/ban_img.png ')}}" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -174,37 +174,37 @@
             <div class="row">
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="{{ asset('template1/images/shoes.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset('  images/shoes.png ')}}" alt="#"/></i>
                      <span>Shoes</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx bluedark_bg">
-                     <i><img src="{{ asset('template1/images/underwear.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset(' images/underwear.png ')}}" alt="#"/></i>
                      <span>underwear</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="{{ asset('template1/images/pent.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset(' images/pent.png ')}}" alt="#"/></i>
                      <span>Pante & socks</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx bluedark_bg">
-                     <i><img src="{{ asset('template1/images/t_shart.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset(' images/t_shart.png ')}}" alt="#"/></i>
                      <span>T-shirt & tankstop</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="{{ asset('template1/images/jakit.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset(' images/jakit.png ')}}" alt="#"/></i>
                      <span>cardigans & jumpers</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx bluedark_bg">
-                     <i><img src="{{ asset('template1/images/helbet.png ')}}" alt="#"/></i>
+                     <i><img src="{{ asset(' images/helbet.png ')}}" alt="#"/></i>
                      <span>Top & hat</span>
                   </div>
                </div>
@@ -260,13 +260,13 @@
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="{{ asset('template1/js/jquery.min.js')}}"></script>
-      <script src="{{ asset('template1/js/popper.min.js ')}}"></script>
-      <script src="{{ asset('template1/js/bootstrap.bundle.min.js ')}}"></script>
-      <script src="{{ asset('template1/js/jquery-3.0.0.min.js ')}}"></script>
+      <script src="{{ asset(' js/jquery.min.js')}}"></script>
+      <script src="{{ asset(' js/popper.min.js ')}}"></script>
+      <script src="{{ asset(' js/bootstrap.bundle.min.js ')}}"></script>
+      <script src="{{ asset(' js/jquery-3.0.0.min.js ')}}"></script>
       <!-- sidebar -->
-      <script src="{{ asset('template1/js/jquery.mCustomScrollbar.concat.min.js ')}}"></script>
-      <script src="{{ asset('template1/js/custom.js ')}}"></script>
+      <script src="{{ asset(' js/jquery.mCustomScrollbar.concat.min.js ')}}"></script>
+      <script src="{{ asset(' js/custom.js ')}}"></script>
    </body>
 </html>
 
